@@ -602,7 +602,6 @@ footer {
   background-color: #B41F22; /* Цвет полосы прокрутки при наведении */
 }
 
-
 ::-webkit-scrollbar-thumb:hover {
   background-color: #B41F22; /* Цвет полосы прокрутки при наведении */
 }
