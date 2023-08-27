@@ -114,7 +114,8 @@ font-weight: 400;
   color: #212123;
 }
 
-.parallax-one {overflow: hidden; display: block;
+.parallax-one {overflow: hidden;   display: flex;
+  flex-direction: column;
   position: relative; width: 100%; background: linear-gradient(rgba(20, 20, 20, 0.95), rgba(20,20,20,0.95)), url(https://github.com/egupych/1002/blob/main/map.png?raw=true); background-attachment: fixed; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; background-position: top center;}
 
 
@@ -176,12 +177,11 @@ p a {
 }
 
 .logo_company_first {
-  width: 7vw;
+  width: 14vw;
 }
 
 .logo_company {
-  width: 7vw;
-  position: absolute;
+  width: 14vw;
   margin: auto;
   left: 0;
   top: 10%;
@@ -260,7 +260,7 @@ transform: scale(1.1);
 .head {
   font-family: 'Montserrat Alternates', sans-serif;
   font-weight: 500;
-  font-size: 67px;
+  font-size: 70px;
   line-height: 100%;
 
   grid-column-start: 1;
@@ -283,6 +283,7 @@ transform: scale(1.1);
   display: flex;
   justify-content: center;
 }
+
 
 .design img {
   width: 172px;
@@ -449,7 +450,7 @@ align-items: center;
   font-family: 'Montserrat Alternates', sans-serif;
   font-weight: 300;
   font-size: 60px;
-  
+  line-height: 110%;
   margin-bottom: 14px;
 }
 
@@ -479,12 +480,15 @@ align-items: center;
 
 .logo {
   font-weight: 600;
-  font-size: 34px;
+  font-size: 35px;
 
   color: #212123;
   cursor: pointer;
 }
 
+.logo:hover {
+  color: #B41F22;
+}
 
 .logos_mobile {
   display: flex;
@@ -612,7 +616,8 @@ footer {
   background-color: #1A2239;
   padding: 69px 137px 0px;
   margin-bottom: 43px;
-  position: relative;
+  display: flex;
+  flex-direction: column;
 }
 
 .title {
@@ -626,7 +631,6 @@ footer {
 .quote {
   font-size: 20px;
   color: #F7F7F7;
-  padding: 100px 258px 0px;
   text-align: center;
 }
 
@@ -672,7 +676,7 @@ footer {
   padding-right: 34px;
   font-size: 20px;
   line-height: 0;
-  color: #F7F7F7;
+  color: #B41F22;
 }
 
 .social {
@@ -738,7 +742,7 @@ body {
 }
 
 
-.parallax-one {overflow: hidden; display: block;
+.parallax-one {overflow: hidden;
   position: relative; width: 90vw; background: linear-gradient(rgba(20, 20, 20, 0.95), rgba(20,20,20,0.95)), url(); background-attachment: fixed; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; background-position: top center;}
 
 
@@ -811,7 +815,7 @@ body {
  
  
 .head {
-  font-size: 3.7vw;
+  font-size: 3.5vw;
 }
 
 .design img {
@@ -978,6 +982,7 @@ font-size: 4vw;
   border-radius: 4vw;
   padding: 4vw 8vw 0vw;
   margin-bottom: 2.5vw;
+
 }
 
 .title {
@@ -986,7 +991,6 @@ font-size: 4vw;
 
 .quote {
   font-size: 1.2vw;
-  padding: 6vw 15vw 0vw;
 }
 
 .sign {
@@ -1173,8 +1177,8 @@ align-items: center;
 }
 
 .logo_company {
-  width: 15vw;
-  top: 10%;
+  width: 29vw;
+  padding: 1vw;
 }
 
 .logo_social {
@@ -1221,7 +1225,6 @@ align-items: center;
 
 .quote {
   font-size: 3vw;
-  padding: 20vw 0 3vw;
 }
 
 .sign {
@@ -1257,7 +1260,6 @@ align-items: center;
   padding-right: 4vw;
   font-size: 3vw;
   line-height: 3vw;
-  color: #F7F7F7;
 }
 
 .social-contacts a {
@@ -1279,7 +1281,7 @@ align-items: center;
 }
 
 
-.parallax-one {overflow: hidden; display: block;
+.parallax-one {overflow: hidden; 
   position: relative; width: 90%; background: linear-gradient(rgba(33, 33, 35, 1), rgba(33,33,35, 1)), url(https://github.com/egupych/1002/blob/main/map.png?raw=true); background-attachment: fixed; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; background-position: top center;}
 
 
